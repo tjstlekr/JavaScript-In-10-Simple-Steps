@@ -1,0 +1,28 @@
+<!--
+One of the benifits of JavaScript is to be able to tie interactivity to elements of the html page.
+one way to do this is as follows
+1. Use the onClick attribute of the a tag to call the function:
+<a href=”#” onClick=”functionName()”>Link text</a>
+2. Use a javascript: URL in the href attribute of the a tag to call
+the function:
+<a href=”javascript:functionName()”>Link text</a>
+-->
+
+<head>
+  <script language="JavaScript">
+  <!--
+  function sayHello() {
+    window.alert("Hey There");
+  }
+  // -->
+  </script>
+</head>
+
+<body>
+  <a href="#" onclick="sayHello();"> Click to say Hi</a>
+
+  <br>
+  <a href="javascript: sayHello();">Click to say Hi</a>
+  <br>
+  <a href="https://www.google.com/">Go to google</a>
+</body>
